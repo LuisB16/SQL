@@ -29,4 +29,3 @@ ORDER BY price;
 
 SELECT SUM(price) FROM desserts;
 
-Check out my store data base here, notice how I've described each piece of code. First, I created a store data, then I displayed the data base order by price (greater than 7). Lastly, I ordered the data base by the sum price of the desserts.
