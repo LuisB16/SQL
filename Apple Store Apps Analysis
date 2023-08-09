@@ -120,12 +120,12 @@ ORDER BY average_rating DESC
 --Check the top-rated apps for each genre 
 
 SELECT
-	prime_genre,
+    prime_genre,
     track_name,
     user_rating
 FROM (
   	   SELECT
-  	   prime_genre,
+       prime_genre,
        track_name,
        user_rating,
        RANK () OVER(PARTITION BY prime_genre ORDER BY user_rating DESC, rating_count_tot DESC) AS rank
