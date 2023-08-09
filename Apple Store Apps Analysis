@@ -1,3 +1,8 @@
+In this analysis, we identify data for an app developer who wishes to improve or create a new app based on the apps already available on the Apple Store.
+We aim to answer questions such as: What app categories are most popular? Which apps have the lowest ratings? 
+Additionally, we seek to determine whether paid apps have higher ratings than free apps.
+
+
 CREATE TABLE appleStore_description_combined AS 
 
 SELECT * from appleStore_description1
