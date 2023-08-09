@@ -53,7 +53,7 @@ SELECT min(user_rating) AS MinRating,
        avg(user_rating) AS AvgRating
 FROM AppleStore
 
---Get the distribution of app pricesAppleStore
+--Get the distribution of app prices
 
 SELECT
     (price / 2) *2 AS PriceBinStart,
